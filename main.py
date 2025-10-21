@@ -25,7 +25,7 @@ def youtube_url_validation(url):
 def start_cmd(message):
     bot.reply_to(
         message,
-        "YT Video And Music Downloader Bot Send me a YouTube or YouTube Music link @tgbotstorebynonx",
+        "Send me a YouTube or YouTube Music link.",
         parse_mode="MARKDOWN",
         disable_web_page_preview=True
     )
